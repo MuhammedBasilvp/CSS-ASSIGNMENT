@@ -1,0 +1,21 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+
+
+}
+#tr1{
+    color: blue;
+
+    background-color: rgb(201, 194, 194);
+}
+#tr2{
+    background-color: rgb(119, 237, 45);
+}
+#tr3{
+    background-color: rgb(119, 237, 45);
+}
+#tr4{
+    background-color: rgb(119, 237, 45);
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 CSS</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            background-color: black;
+            padding: 40px;
+            text-align: left;
+            font-size: 20px;
+
+        }
+        header h1{
+            color: rgb(238, 238,110);
+        }
+        header p{
+            color: gray;
+        }
+        header nav{
+            float: right;
+            width: 40%;
+            padding-bottom: 5px;
+            padding-right: 70px;
+            display: block;
+            padding-right: 50px;       
+         }
+         .navbar-name ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(52, 42, 42);
+            overflow: hidden;
+         }
+         .navbar-name li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+            text-decoration:none ;
+            display: block;
+            float: left;
+            border-radius: 50px;
+            border-top-left-radius:20px ;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+         }
+         .navbar-name ul:hover{
+            background-color: green;
+         }
+         img{
+            width: 90%;
+            border: 10px solid gray;
+            margin: 20px;
+         }
+         .main{
+            padding-left: 65px;
+            padding-right: 30%;
+         }
+         .box1{
+            float:right;
+            width: 30%;
+            height: 360px;
+            background-color: cadetblue;
+            border: 2px solid rgb(95,93,93);
+            padding:10px;
+            border-radius: 30px;
+         }
+         .outbox{
+            float:right;
+            width: 425px;
+            background-color: cadetblue;
+            border: 2px solid rgb(95,93,93);
+            padding: 2px;
+            border-radius: 30px;
+            display: block;
+            padding-top: 40px;
+            padding-bottom: 40px;
+         }
+         .foot{
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            align-items: center;
+         }
+         .foot li{
+            text-align: center;
+         }
+         .foot ul{
+            list-style: none;
+            margin: 0;
+            padding:0;
+            overflow: hidden;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            padding-left: 42%;
+         }
+         .foot li a{
+            display :block;
+            color: rgb(152,152,9);
+            text-align: center;
+            padding: 10px 10px 0px 0px;
+            text-decoration: none;
+            display: block;
+         }
+         .foot p a{
+            color: rgb(152,152,9);
+         }
+         section{
+            background-color: antiquewhite;
+         }
+    </style>
+    <header>
+        <div class="header-name">
+            <h1>Website Name</h1>
+            <p>Motive to your website</p>
+        </div>
+        <nav>
+            <div class="navbar-name"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#"></a>About us</li>
+                <li><a href="#"></a>A page</li>
+                <li><a href="#"></a>Another Page</li>
+                <li><a href="#"></a>Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <center>
+            <div>
+                <img src="https://images.pexels.com/photos/1482778/pexels-photo-1482778.jpeg?auto=compress&cs=tinysrgb&w=600" alt="loading"  width="500px" height="150px">
+            </div>
+        </center>
+        <article>
+            <aside>
+                <div class="box1">
+                    <h3>Latest news</h3>
+                    <h4>SOME NEWS GOES HERE</h4>
+                    <P>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</P>
+                    <div id="more" style="display: none;">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        <img..../>
+
+                    </div>
+                    <a href="javascript:showMore()" id="link">Read More</a><br><br>
+
+
+                    <div class="outbox">
+                    <div class="box2">
+                    <h3>some useful links</h3>
+                    <ul>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link1</a></li>
+                    </ul>
+                    </div>
+                    </div>
+
+                </div>
+            </aside>
+            <div class="main">
+                <h2>welcome to the website</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                <h2>some highlights...</h2>
+                <p>some text goes here:</p>
+                <ul>
+                    <li>some text here</li>
+                    <li>some text here</li>
+                    <li>some text here</li>
+                    <li>some text here</li>
+                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="foot">
+            <ul>
+                <li><a href="#">Home|</a></li>
+                <li><a href="#">About us|</a></li>
+                <li><a href="#">A page|</a></li>
+                <li><a href="#">Another Page|</a></li>
+                <li><a href="#">Contact us|</a></li>
+            </ul>
+            <p><a href="copyright@xyz">copyright@xyz|All Right Reserved</a></p>
+        </div>
+    </footer>
+</body>
+<script>function showMore(){
+    document.getElementById('link').parentElement.removechild('link');
+    document.getElementById('more').style.display="block;"}
+    </script>
+</html>
